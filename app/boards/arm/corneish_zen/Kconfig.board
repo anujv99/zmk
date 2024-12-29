@@ -13,6 +13,11 @@ config BOARD_CORNEISH_ZEN_V1_RIGHT
     depends on SOC_NRF52840_QIAA
     select BOARD_CORNEISH_ZEN_RIGHT
 
+config BOARD_CORNEISH_ZEN_V1_DONGLE
+    bool "corneish zen dongle v1"
+    depends on SOC_NRF52840_QIAA
+    select BOARD_CORNEISH_ZEN_DONGLE
+
 config BOARD_CORNEISH_ZEN_V2_LEFT
     bool "corneish zen left v2"
     depends on SOC_NRF52840_QIAA
@@ -22,3 +27,9 @@ config BOARD_CORNEISH_ZEN_V2_RIGHT
     bool "corneish zen right v2"
     depends on SOC_NRF52840_QIAA
     select BOARD_CORNEISH_ZEN_RIGHT
+
+config BOARD_CORNEISH_ZEN_V2_DONGLE
+    bool "corneish zen dongle v2"
+    depends on SOC_NRF52840_QIAA
+    select BOARD_CORNEISH_ZEN_DONGLE
+

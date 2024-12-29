@@ -8,3 +8,6 @@ config BOARD_CORNEISH_ZEN_LEFT
 
 config BOARD_CORNEISH_ZEN_RIGHT
     bool
+
+config BOARD_CORNEISH_ZEN_DONGLE
+    bool
